@@ -1,0 +1,17 @@
+# ! JUST READ - don't change the content of this file
+# Question structure extracted from survey.html
+respondent_FC_region:
+  type: mc_buttons
+  label: Which region is your fanclub primarily located in?
+  options:
+    11 Alaska: '11'
+'1':
+  type: numeric
+  label: john lennons birth year?
+'2':
+  type: numeric
+  label: paul mccartneys birth year?
+'3':
+  type: numeric
+  label: How many dingos
+
