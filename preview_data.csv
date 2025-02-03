@@ -1,2 +1,2 @@
-"session_id","time_start","time_end","respondent_FC_region","X1","X2","X3","time_q_respondent_FC_region","time_q_1","time_q_2","time_q_3","time_p_welcome","time_p_Alaska_lennon_birth","time_p_Alaska_mccartney_birth","time_p_Alaska_ringosdingos","time_p_end"
-"1ebfc9ab54bd0375ac5533a7d902ede0","2025-01-21 19:05:17 UTC","2025-01-21 19:05:33 UTC","11","-3","6758","","2025-01-21 19:05:21 UTC","2025-01-21 19:05:32 UTC","2025-01-21 19:05:29 UTC","","2025-01-21 19:05:17 UTC","2025-01-21 19:05:30 UTC","2025-01-21 19:05:26 UTC","",""
+"session_id","time_start","time_end","apples_brackets","apples_count","time_q_apples_brackets","time_q_apples_count","time_p_welcome","time_p_end"
+"8c916983900c4a804fade6107bcfc715","2025-02-03 18:47:28 UTC","2025-02-03 18:47:57 UTC","40","40","2025-02-03 18:47:33 UTC","2025-02-03 18:47:36 UTC","2025-02-03 18:47:28 UTC","2025-02-03 18:47:37 UTC"
