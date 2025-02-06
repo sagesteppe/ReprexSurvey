@@ -52,7 +52,7 @@ sd_question(
 
 
 ```{r C}
-sd_question(type = "slider_integer", id = 'apples', label = 'C', option = 0:100)
+sd_question(type = "slider_integer", id = 'apples_integer', label = 'C', option = 0:100)
 ```
 
 ```{r}

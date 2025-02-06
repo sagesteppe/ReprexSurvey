@@ -1,4 +1,2 @@
-"session_id","time_start","time_end","apples_brackets","apples_count","apples","time_q_apples_brackets","time_q_apples_count","time_q_apples","time_p_slider_integer_example","time_p_end"
-"10f577aefc647ba95b51450998de58d9","2025-02-06 17:22:41 UTC","2025-02-06 17:22:47 UTC","0","0","50",,,,"2025-02-06 17:22:41 UTC",
-"ef56db0df06daa2a4e7bce22565d9fa6","2025-02-06 17:23:37 UTC","2025-02-06 17:33:03 UTC","0","0","50",,,,"2025-02-06 17:23:37 UTC",
-"905bf44299517365bac721d5259b4029","2025-02-06 17:23:46 UTC","2025-02-06 17:23:53 UTC","0","0","50",,,,"2025-02-06 17:23:46 UTC",
+"session_id","time_start","time_end","apples_brackets","apples_count","apples_integer","time_q_apples_brackets","time_q_apples_count","time_q_apples_integer","time_p_slider_integer_example","time_p_end","current_page"
+"c7969f20a205adb311d49ec595871bc5","2025-02-06 17:49:31 UTC","2025-02-06 17:49:44 UTC","40","42","42","2025-02-06 17:49:33 UTC","2025-02-06 17:49:35 UTC","2025-02-06 17:49:38 UTC","2025-02-06 17:49:31 UTC","2025-02-06 17:49:39 UTC","end"

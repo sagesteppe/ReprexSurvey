@@ -119,7 +119,7 @@ apples_count:
   - '98'
   - '99'
   - '100'
-apples:
+apples_integer:
   type: unknown
   label: C
   options:
