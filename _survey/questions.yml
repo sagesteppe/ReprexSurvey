@@ -2,7 +2,7 @@
 # Question structure extracted from survey.html
 apples_brackets:
   type: slider
-  label: How many apples do you eat a day?
+  label: A
   options:
   - '0'
   - '10'
@@ -16,7 +16,7 @@ apples_brackets:
   - '90'
 apples_count:
   type: slider
-  label: How many apples do you eat a day?
+  label: B
   options:
   - '0'
   - '1'
@@ -119,4 +119,9 @@ apples_count:
   - '98'
   - '99'
   - '100'
+apples:
+  type: unknown
+  label: C
+  options:
+  - .na.character
 

@@ -1,22 +1,31 @@
 ---
+format: html
 echo: false
 warning: false
+footer-left: "Made with [surveydown](https://surveydown.org)"
+footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/surveydown-dev/demos)'
 ---
 
 ```{r}
+# devtools::install_github('sagesteppe/surveydown')
 library(surveydown)
 ```
 
-::: {#welcome .sd-page}
+::: {#slider_integer_example .sd-page}
 
-# Welcome to our survey!
+# Demo - Leaflet Map
 
-```{r}
+::: {.callout-note}
 
+Thanks for bearing with me!
+
+:::
+
+```{r A}
 sd_question(
   type  = 'slider',
   id    = 'apples_brackets',
-  label = "How many apples do you eat a day?",
+  label = "A",
   option = c(
     "0" = 0,
     "10" = 10,
@@ -32,30 +41,34 @@ sd_question(
 )
 ```
 
-```{r}
-
+```{r B}
 sd_question(
   type  = 'slider',
   id    = 'apples_count',
-  label = "How many apples do you eat a day?",
+  label = "B",
   option = 0:100
 )
 ```
 
-```{r}
-sd_next(next_page = 'end')
+
+```{r C}
+sd_question(type = "slider_integer", id = 'apples', label = 'C', option = 0:100)
 ```
 
-::: 
+```{r}
+sd_next()
+```
+
+:::
 
 ::: {#end .sd-page}
 
 ## End
 
-This it the last page in the survey. 
+This it the last page in the survey.
 
 ```{r}
 sd_close("Exit Survey")
 ```
 
-::: 
+:::
