@@ -7,7 +7,7 @@ footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/sur
 ---
 
 ```{r}
-# devtools::install_github('sagesteppe/surveydown')
+# pak::pkg_install('sagesteppe/surveydown')
 library(surveydown)
 ```
 
