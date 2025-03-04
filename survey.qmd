@@ -11,48 +11,56 @@ footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/sur
 library(surveydown)
 ```
 
-::: {#slider_integer_example .sd-page}
+::: {#numerics_not_saved .sd-page}
 
 # Demo - Leaflet Map
 
 ::: {.callout-note}
 
-Thanks for bearing with me!
+Numeric values will save to local CSV, but not to Supabase. 
 
 :::
 
-```{r A}
+```{r}
 sd_question(
-  type  = 'slider',
-  id    = 'apples_brackets',
-  label = "A",
-  option = c(
-    "0" = 0,
-    "10" = 10,
-    "20" = 20,
-    "30" = 30,
-    "40" = 40, 
-    "50" = 50, 
-    "60" = 60, 
-    "70" = 70, 
-    "80" = 80, 
-    "90" = 90
-  )
+  type  = "textarea",
+  id    = "paragraph",
+  label = "Write a paragraph:"
 )
 ```
 
-```{r B}
+```{r}
 sd_question(
-  type  = 'slider',
-  id    = 'apples_count',
-  label = "B",
-  option = 0:100
+  type  = 'numeric',
+  id    = 'age',
+  label = "What's your age?"
 )
+
 ```
 
+```{r integer apples}
+sd_question(type = "slider_numeric", id = 'apples_integer', label = 'integer', option = 0:100)
+```
 
-```{r C}
-sd_question(type = "slider_integer", id = 'apples_integer', label = 'C', option = 0:100)
+```{r animation}
+sd_question(type = "slider_numeric", id = 'apples_animate',  option = seq(0, 100),
+                  pre = "$", sep = ",", label = 'apples rule everything around me', step = 25,
+                  animate = TRUE)
+```
+
+```{r looping animation}
+sd_question(type = "slider_numeric", id = 'apples_animation',  label = 'apple_loops',
+            option = seq(0, 200, 10), 
+            default = 1, step = 40,
+                  animate =  shiny::animationOptions(loop = TRUE))
+```
+
+```{r decimal apples}
+sd_question(type = "slider_numeric", id = 'apples_decimal',  label = 'decimals', option = seq(0, 1, 0.05), default = 0.1)
+```
+
+```{r range slider}
+sd_question(type = "slider_numeric", id = 'apples_range',  label = 'range', option = seq(0, 1, 0.05), default = c(0.3,0.65))
 ```
 
 ```{r}
